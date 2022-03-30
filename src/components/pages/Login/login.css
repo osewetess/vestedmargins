@@ -1,0 +1,52 @@
+.signin{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(93, 120, 240, 0.5),rgba(67, 93, 243, 0.5)), url("C:\Users\User\vestedmargins3\vestedmargins3\public\images\img9.JPG");
+    background-size: cover;
+    
+
+}
+
+.signin-title{
+    font-size: 50px;
+}
+.signinform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.signinform>label{
+    margin: 10px 0;
+    
+
+}
+.signinput{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+}
+.signin-button{
+    margin-top: 20px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 7px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+   
+   
+}
+.signinput:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+
+}
+
+.signinput:active{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+
+}

@@ -1,0 +1,50 @@
+.bottom{
+    width: 100%;
+    margin-top: 0px;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Caveat';
+    right: 0;
+    position: sticky;
+    display: flex;
+    font-size: calc(5rem + 1.2vw);
+    background-color: rgba(12, 6, 65, 0.5);
+    
+    
+    
+    
+    
+   
+   }
+   .register-btn{
+       margin-left: 10px;
+       font-family: 'Kaushan Script';
+       padding: 3px 7px;
+       background-color: rgb(39, 121, 192);
+       border: 1px solid black;
+      
+
+   }
+   .register-btn:hover{
+    background-color: rgba(78, 168, 241,0.4);
+    border: 1px solid black;
+   }
+   .login-btn{
+       margin-right: 10px;
+       font-family: 'Kaushan Script';
+       padding: 3px 7px;
+       margin-left: 10px;
+       background-color: rgb(39, 121, 192);
+       border: 1px solid black;
+   }
+   .login-btn:hover{
+    background-color: rgba(78, 168, 241,0.4);
+    border: 1px solid black;
+   }
+   .login-btn:active{
+    background-color: rgba(8, 6, 39, 0.4);
+}
+    .register-btn:active{
+    background-color: rgba(8, 6, 39, 0.4);
+}

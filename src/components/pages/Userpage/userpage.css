@@ -1,0 +1,33 @@
+.userspage{
+    background:  rgb(209, 207, 207);
+}
+
+
+
+.username{
+   
+    margin-top: 60px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-left: 20px;
+    margin-top: 20px;
+  
+}
+
+.post-img{
+   
+    width: 70%;
+    height: 200px; 
+    padding: 10px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+   
+    
+   
+}

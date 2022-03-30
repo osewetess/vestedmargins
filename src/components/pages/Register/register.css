@@ -1,0 +1,53 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(93, 120, 240, 0.5),rgba(67, 93, 243, 0.5)), url("C:\Users\User\vestedmargins3\vestedmargins3\public\images\img5.JPG");
+    background-size: cover;
+
+}
+
+.register-title{
+    font-size: 50px;
+}
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerform>label{
+    margin: 10px 0;
+    
+
+}
+.registerinput{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+}
+.register-button{
+    margin-top: 20px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 7px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+   
+   
+}
+.registerinput:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+
+}
+
+.registerinput:active{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+
+}
+
+   
